@@ -1,0 +1,138 @@
+body {
+  background-color: rgb(243, 238, 234);
+}
+
+.bg-light {
+  background-color: rgb(243, 238, 234)!important;
+}
+
+.hero-header {
+  background: rgb(176, 166, 149);
+  height: 10vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 100px;
+
+}
+
+.hero-header h1 {
+  color: #fff; 
+  font-size: 3rem;
+  position: relative;
+  top: -110px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.btn-primary{
+background-color: #E2062C;
+border:none;
+color: white;
+}
+
+
+.btn-primary:hover{
+background-color: #9A1A1A;
+color: white;
+}
+
+.btn-primary:active{
+background-color: #9A1A1A;
+color: white;
+}
+
+.btn-primary:focus{
+background-color: #E04C4C;
+color: white;
+}
+
+
+.btn-contact{
+background-color: black;
+border:none;
+color: white;
+}
+
+
+.btn-contact:hover{
+background-color: #9A1A1A;
+color: white;
+}
+
+.btn-contact:active{
+background-color: #9A1A1A;
+color: white;
+}
+
+.btn-contact:focus{
+background-color: #E04C4C;
+color: white;
+}
+
+.flex-column {
+  max-width: 320px;
+  margin: 0 auto; 
+}
+
+.d-flex img {
+  width: 100%;
+  max-width: 100%;
+  margin: 5px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+
+.d-flex img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+}
+
+
+.scale {
+  transform: scaleY(1.05);
+  padding-top: 5px;
+}
+
+.footer {
+  padding: 5rem 0;
+}
+
+.img-fluid {
+  max-width: 60%;
+  height: auto;
+}
+
+.display-3 {
+  font-size: calc(1.2rem + 1.5vw);
+}
+
+.container{
+  align-items: center;
+}
+
+.text-uppercase.text-white.mb-4 {
+  font-size: 1.5rem; 
+}
+
+.row.g-0.justify-content-center {
+  transform: scale(0.8); 
+}
+
+.text-uppercase.display-3.text-center.mb-4.text-70 {
+  font-size: 2rem; 
+  padding-top: 1rem;
+}
+
+.footer {
+  padding: 3rem;
+}
+
+.black-icon {
+  color: black;
+  transition: color 0.3s ease; /* Smooth transition effect */
+}
+
+.black-icon:hover {
+  color: #eb0505; /* Adjust the hover color as needed */
+}
